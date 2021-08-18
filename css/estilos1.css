@@ -1,0 +1,250 @@
+
+body {
+  padding-top: 56px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-collapse{
+  transition: 1s;
+}
+li{
+  transition:1s;
+}
+.navbar{
+  background-color: #ff8243!important;
+}
+.boton1{
+  background-color: #ff8243!important;
+  color: whitesmoke;
+}
+.boton1:hover{
+  background-color: #e7540aa9!important;
+  color: whitesmoke;
+}
+.boton2{
+  background-color: silver;
+  transition: 1s;
+  color: #4b4b4b;
+}
+.boton2:hover{
+  background-color: #ff824359;
+  color: #ff8243;
+}
+.boton3{
+  background-color: #cfcfc4;
+  transition: 1s;
+  color: #4b4b4b;
+}
+.boton3:hover{
+  background-color: #ff824359;
+  color: #ff8243;
+}
+header{
+  background-image: url(../images/Whatsapp.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: 1115px 350px;
+ 
+  
+  
+}
+body{
+  background-color: rgba(228, 226, 226, 0.863);
+}
+
+.registro .form-control {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid #4b4b4b;
+  border-radius: 0px;
+ }
+
+ .registro input{
+   transition: 1s;   
+   
+ }
+ 
+.registro input:focus{
+  width: 400px;
+}
+.contacto .form-control {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 20%;
+  border-bottom: 1px solid #4b4b4b;
+  border-radius: 0px;
+ }
+
+ .contacto input{
+   transition: 1s;   
+   
+ }
+ 
+.contacto input:focus{
+  width: 400px;
+}
+.cardComercios{
+  width: 800px;
+}
+.card-horizontal img{
+  width: 220px;
+  height: 270px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+
+.iconoFooter{
+  transition:1s;
+}
+.iconoFooter:hover{
+  color: #ff8243 !important;
+}
+
+.cardHome{
+  text-decoration: none!important;
+  transition: 1s;  
+}
+
+.cardHome:hover{
+  background-color: whitesmoke;
+  opacity: 80%;
+  border-radius: 10px;
+
+}
+.cardHome1{
+  text-decoration: none!important;
+  transition: 1s;
+  
+  
+}
+.cardHome1:hover{
+  background-color: rgba(197, 194, 194, 0.400);
+  cursor: help;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.btn{
+  transition: 1s;
+}
+.modal{
+  transition: 1s;
+  color: #999;
+  
+}
+.inputBuscador{
+  padding-right: 35px;
+  margin-left: 500px;
+  width: 750px;
+  height: 50px;
+  background-color: #f5f5f5;
+}
+.botonBuscador{
+  background-color: silver;
+  display: block;
+  right: 15px;
+  margin-left: -33px;
+  color: #ff8243;
+  height: 40px;
+  margin-top: 5px;
+}
+ @media (max-width:765px)
+ {
+  .card-horizontal img{
+    width: 170px;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+  }
+  .card-horizontal h4{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .card-horizontal p{
+    font-size: 15px;
+  }
+  .cardComercios{
+    width: 500px;
+  }
+  .cardComercioFooter{
+    padding: 0;
+    background-color: #4bb543;
+    
+  }
+  .cardComercioFooter a{
+    width: 100%;
+    background-color: #4bb543;    
+    font-weight: bold;
+  }
+  .adress{
+    font-size: 15px;
+  }
+  .inputBuscador{
+    width: 500px;    
+    margin-left: 0;
+  }
+  .botonBuscador{
+    margin-left:-35px;
+    margin-top: 5px;
+  }
+  .registro input:focus{
+    width: 325px;
+    border-color: transparent;
+  }
+ h1{
+   font-size: 30px!important;
+ }
+  header{
+    background-size: 1115px 450px;
+  }
+  .encabezado{
+    display:none
+  }
+
+  .imgModal{
+    width: 320px;
+    height: 510px;
+  }
+
+  .iconoNav{
+    color: #f5f5f5;
+    font-size: 30px;
+    transition: 1s;
+  }
+  .iconoNav:hover{
+    opacity: 80%;
+  }
+  .navbar-toggler:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .titulo-comercios-card{
+    font-size: 15px;
+  }
+
+  .texto-comercios-card{
+    font-size: 12px;
+  }
+ 
+  .card-explicativo{
+    margin:0px;
+    padding-left: 7px;
+    padding-right: 3px;
+  }
+ }
+ 
+ .contacto input{
+   background-color: transparent;
+   border-bottom: solid 2px #999;
+ }
+ .contacto textarea{
+   background-color: transparent;
+   border-bottom: solid 2px #999;
+ }
+ 
+
