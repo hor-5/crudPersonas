@@ -23,7 +23,7 @@
                 <li class="nav-item dropdown no-arrow bg-white mt-1 mb-3">
                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="mr-2 text-gray-600 small"><?php echo "Hola"." ". $_SESSION["nombre"]. "!"; ?></span>
-                    <img class="img-profile rounded-circle" height="70px" width="70px" src="<?php echo $_SESSION["nombre" ]== "Ofelia"?  "images/ofelia.jpg": "images/ofelio.jpg" ; ?>">
+                    <img class="img-profile rounded-circle" height="70px" width="70px" src="<?php echo $_SESSION["nombre" ]== "invitado"?  "images/user.png": "images/horacio.jpg" ; ?>">
                     </a>                    
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">                    
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">

@@ -6,7 +6,7 @@
         <div class="sidebar-brand-icon">
             <span><i class="fas fa-restroom"></i></span>
         </div>
-        <div class="sidebar-brand-text mx-3">MasterOfe</div>
+        <div class="sidebar-brand-text mx-3">Crud Personas</div>
     </a>
 
     <!-- Divider -->
